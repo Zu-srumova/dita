@@ -21,7 +21,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 800;
-    margin: 3em 0 1.5em 0;
+    margin: 2em 0 1.2em 0;
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -49,6 +49,10 @@ p {
     letter-spacing: 0.01em;
     margin: 0 0 12px;
     padding: 10px;
+}
+
+a {
+    color: #3A506B;
 }
 
 section {
@@ -90,6 +94,8 @@ section {
     background-color: #D6996B;
 }
 
+/* Header */
+
 header {
     background-color: rgb(249, 250, 251);
     background-image: url("images/masaz.jpg");
@@ -125,27 +131,28 @@ header p {
     background-color: rgb(249, 250, 251);
 }
 
-.o-terapii {
+.terapie-uvod {
     text-align: center;
 }
 
 .varianta {
     background-color: rgb(255, 255, 255);
     margin: 0.5em;
+    margin-bottom: 1.5em;
 }
 
-.varianta h3 {
+.varianta-heading {
     padding: 0.75em 2em;
     border: 1px solid #D6996B;
     color: #FFFFFF;
     background: #D6996B;
 }
 
-.cena {
+.varianta-cena {
     font-size: 2rem;
     text-weight: 700;
     text-align: center;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.5em;
     color: #D6996B;
 }
 
@@ -171,7 +178,6 @@ header p {
     border: 1px solid #D6996B;
     color: #FFFFFF;
     background: #D6996B;
-
 }
 
 
@@ -185,4 +191,28 @@ header p {
 footer {
     background-color: #333333;
     color: white;
+       
+}
+
+footer h2 {
+    padding: 1em 0 0 0;
+}
+
+footer p {
+    margin: 0 0.5em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #dca77f;
+}
+
+.footer-compulsory {
+    margin: 0;
+    text-align: center;
+    background-color: #D6996B;
 }
