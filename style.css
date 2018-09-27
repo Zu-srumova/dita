@@ -39,7 +39,7 @@ h3 {
     font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
     margin-top: 1em;
     margin-bottom: 0.83em;
 }
@@ -105,7 +105,7 @@ header p {
 
 
 
-/* All about anotation */
+/* Anotation */
 
 .anotation {
     background-color: white;
@@ -117,10 +117,40 @@ header p {
     margin: 20px 0;
 }
 
+
+
+/* Terapie a jejich varianty*/
+
 .terapie {
     background-color: rgb(249, 250, 251);
-    
 }
+
+.o-terapii {
+    text-align: center;
+}
+
+.varianta {
+    background-color: rgb(255, 255, 255);
+    margin: 0.5em;
+}
+
+.varianta h3 {
+    padding: 0.75em 2em;
+    border: 1px solid #D6996B;
+    color: #FFFFFF;
+    background: #D6996B;
+}
+
+.cena {
+    font-size: 2rem;
+    text-weight: 700;
+    text-align: center;
+    padding: 0.5em 1em;
+    color: #D6996B;
+}
+
+
+
 
 /* All about Dita */
 
@@ -129,19 +159,28 @@ header p {
 }
 
 .dita a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 0.83em;
     display: inline-block;
     padding: 0.75em 2em;
     border: 1px solid #D6996B;
-    font-weight: 400;
     color: #FFFFFF;
     background: #D6996B;
-    text-decoration: none;
-    text-align: center;
+
 }
+
 
 .dita a:hover {
     background: #dca77f;
 }
+
+
+/* FOOTER - tedy informace kontaktní */
 
 footer {
     background-color: #333333;
