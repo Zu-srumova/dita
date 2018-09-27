@@ -185,21 +185,27 @@ header p {
     background: #dca77f;
 }
 
+.dita img {
+    width: 100%;
+}
 
 /* FOOTER - tedy informace kontaktní */
 
 footer {
     background-color: #333333;
     color: white;
-       
-}
-
-footer h2 {
-    padding: 1em 0 0 0;
+    padding: 0 1em;
 }
 
 footer p {
-    margin: 0 0.5em;
+    padding: 0;
+    margin: 1em 0 0 0;
+}
+
+footer h2 {
+    margin: 1em 0 0 0;
+    padding: 1em 0 0 0;
+    text-align: left;
 }
 
 footer a {
@@ -212,7 +218,7 @@ footer a:hover {
 }
 
 .footer-compulsory {
-    margin: 0;
+    margin: 2em -1em 0 -1em;
     text-align: center;
     background-color: #D6996B;
 }
