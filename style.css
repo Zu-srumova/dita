@@ -1,3 +1,7 @@
+@-ma-viewport {
+    width: device-width;
+}
+
 *,
 ::after,
 ::before {
