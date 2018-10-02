@@ -60,6 +60,9 @@ a {
 }
 
 section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
     padding: 20px;
     column-span: all; /* zapina block formatting context (aby se vypnul margin collapsing) */
 }
@@ -140,10 +143,35 @@ header p {
 
 .varianta {
     background-color: #ffffff;
-    margin: 0.5em;
-    margin-bottom: 1.5em;
+    margin: 0 0.5em 1.5em;
 }
 
+.clearfix {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .varianta {
+        width: calc(50% - 1em);
+        float: left;
+    }
+    
+    .clearfix {
+        clear: both;
+        display: table;
+    }
+}
+
+@media (min-width: 900px) {
+    .varianta {
+        width: calc(25% - 1em);
+        float: left;
+    }
+
+    .clearfix {
+        display: none;
+    }
+}
 .varianta-heading {
     padding: 0.75em 2em;
     border: 1px solid #d6996b;
@@ -164,9 +192,6 @@ header p {
 
 /* all about dita */
 
-.dita {
-    
-}
 
 .dita a {
     font-size: 1.2rem;
@@ -188,8 +213,8 @@ header p {
     background: #dca77f;
 }
 
-.dita img {
-    width: 100%;
+.dita-img {
+    max-width: 100%;
 }
 
 /* footer - tedy informace kontaktní */
@@ -198,6 +223,13 @@ footer {
     background-color: #333333;
     color: #ffffff;
     padding: 0 1em;
+}
+
+.footer-container {
+    display: inline-block;
+    position: center;
+    width: 30rem;
+    max-width: 100%;
 }
 
 footer p {
