@@ -156,7 +156,7 @@ header p {
         float: left;
     }
     
-    .clearfix {
+    .varianty-clearfix {
         clear: both;
         display: table;
     }
@@ -168,7 +168,7 @@ header p {
         float: left;
     }
 
-    .clearfix {
+    .varianty-clearfix {
         display: none;
     }
 }
@@ -179,42 +179,123 @@ header p {
     background: #d6996b;
 }
 
-.varianta-cena {
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    padding: 0.5em;
-    color: #d6996b;
-}
-
-
 
 
 /* all about dita */
 
+.dita-portrait  img {
+    max-width: 100%;
+}
 
-.dita a {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 700;
-    display: inline-block;
-    margin-top: 1em;
-    margin-bottom: 0.83em;
+.dita-subheader {
     padding: 0.75em 2em;
     border: 1px solid #d6996b;
     color: #ffffff;
     background: #d6996b;
 }
 
+.dita-ul {
+    line-height: 1.5;
+}
 
-.dita a:hover {
+.dita-years {
+    color: #d6996b;
+    font-weight: 700;
+}
+
+.dita-clearfix {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    .dita-about {
+        width: calc(50% - 1em);
+        float: left;
+    }
+
+    .dita-portrait {
+        float: left;
+        width: calc(50% - 1em);
+        max-width: 100%;
+    }
+
+    .dita-clearfix {
+        clear: both;
+        display: table;
+    }
+}
+
+
+
+/* CENIK */
+
+.cenik {
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.cenik p {
+    padding: 0;
+    margin: 0 0 0.5em;
+}
+
+
+
+.cenik-cena {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d6996b;
+}
+
+.napistemi {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    margin: 1em auto 0.83em;
+    padding: 0.75em 2em;
+    border: 1px solid #d6996b;
+    color: #ffffff;
+    background: #d6996b;
+}
+
+.napistemi:hover {
     background: #dca77f;
 }
 
-.dita-img {
-    max-width: 100%;
+.cenik-storno {
+    background-color: #ffffff;
+    margin: 0.5em;
+    padding: 1em;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+@media (min-width: 900px) {
+    .cenik-info {
+        width: calc(50% - 1em);
+        float: left;
+    }
+    
+    .cenik-storno {
+        width: calc(50% - 1em);
+        float: left;
+    }
+    
+}
+
+
+
+/*  REFERENCE */
+
+.reference-text {
+    font-style: italic;
+}
+
+.reference-name {
+    text-align: right;
 }
 
 /* footer - tedy informace kontaktní */
