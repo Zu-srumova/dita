@@ -78,14 +78,16 @@ section {
 }
 
 .main-nav ul {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    max-width: 1200px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .main-nav li {
-    display: inline-block;
-    text-align: right;
-    
+    display: block;
 }
 
 .main-nav a {
