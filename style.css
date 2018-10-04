@@ -148,6 +148,8 @@ header p {
     flex-wrap: wrap;
 }
 
+
+
 .varianta {
     background-color: #ffffff;
     margin: 0 0.5em 1.5em;
@@ -180,12 +182,42 @@ header p {
 
 /* all about dita */
 
-.dita-portrait  img {
-    max-width: 100%;
+
+.dita-content {
+    display: flex;
+    flex: 1 1 40%;
+    min-width: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dita-about {
+    max-width: 65%;
+    flex-wrap: wrap;
+}
+
+.dita-portrait {
+    width: 30%;
+}
+
+.dita-experience {
+    display: flex;
+    flex: 1 1 25%;
+    min-width: 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dita-card {
+    margin: 1.5em 0.5em;
+    min-width: 250px;
+    border: 1px solid #CCCCCC;
+    border-radius:5px;
 }
 
 .dita-subheader {
     padding: 0.75em 2em;
+    margin-top: 0;
     border: 1px solid #d6996b;
     color: #ffffff;
     background: #d6996b;
@@ -204,7 +236,7 @@ header p {
     display: none;
 }
 
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
     .dita-about {
         width: calc(50% - 1em);
         float: left;
@@ -220,7 +252,7 @@ header p {
         clear: both;
         display: table;
     }
-}
+}*/
 
 
 
