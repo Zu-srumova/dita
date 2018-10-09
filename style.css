@@ -50,9 +50,7 @@ h3 {
 
 p {
     line-height: 1.5;
-    letter-spacing: 0.01em;
-    margin: 0 0 12px;
-    padding: 10px;
+    letter-spacing: 1em 0;
 }
 
 a {
@@ -164,6 +162,7 @@ header p {
 .varianta-heading {
     padding: 0.75em 2em;
     margin-top: 0;
+    margin-bottom: 0;
     border: 1px solid #d6996b;
     color: #ffffff;
     background: #d6996b;
@@ -171,6 +170,8 @@ header p {
 
 .varianta-content {
     flex: 1 1 auto;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .varianta-link {
@@ -208,17 +209,17 @@ header p {
 
 .dita-experience {
     display: flex;
-    flex: 1 1 25%;
     min-width: 250px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .dita-card {
+    flex: 1 1 30%;
     margin: 1.5em 0.5em;
-    min-width: 250px;
     border: 1px solid #CCCCCC;
     border-radius:5px;
+    min-width: 20em;
 }
 
 .dita-subheader {
@@ -229,8 +230,14 @@ header p {
     background: #d6996b;
 }
 
+.dita p,
+.dita ul {
+    margin: 0 1em 1em;
+}
+
 .dita-ul {
     line-height: 1.5;
+    padding-left: 1em;
 }
 
 .dita-years {
@@ -273,8 +280,6 @@ header p {
     padding: 0;
     margin: 0 0 0.5em;
 }
-
-
 
 .cenik-cena {
     font-size: 2rem;
