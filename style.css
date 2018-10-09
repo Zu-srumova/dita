@@ -1,4 +1,4 @@
-@-ma-viewport {
+@-ms-viewport {
     width: device-width;
 }
 
@@ -60,7 +60,7 @@ a {
 section {
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     padding: 20px;
     column-span: all; /* zapina block formatting context (aby se vypnul margin collapsing) */
 }
@@ -72,7 +72,7 @@ section {
     color: #ffffff;
     font-size: 0.92rem;
     text-align: right;
-    margin: 0;    
+    margin: 0;
 }
 
 .main-nav ul {
@@ -97,7 +97,7 @@ section {
     border-left: 1px solid #222222;
 }
 
-.main-nav a:hover { 
+.main-nav a:hover {
     background-color: #d6996b;
 }
 
@@ -318,12 +318,12 @@ header p {
         width: calc(50% - 1em);
         float: left;
     }
-    
+
     .cenik-storno {
         width: calc(50% - 1em);
         float: left;
     }
-    
+
 }
 
 
