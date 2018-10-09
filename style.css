@@ -185,19 +185,25 @@ header p {
 
 .dita-content {
     display: flex;
-    flex: 1 1 40%;
     min-width: 250px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .dita-about {
-    max-width: 65%;
+    flex: 9999 1 30em;
     flex-wrap: wrap;
 }
 
+.dita-figure {
+    flex: 1 1 auto;
+}
+
 .dita-portrait {
-    width: 30%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .dita-experience {
