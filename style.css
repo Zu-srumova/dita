@@ -125,6 +125,61 @@ header p {
 
 /* kartičky, ať jsou kde jsou */
 
+.card {
+    background-color: #ffffff;
+    margin: 0 0.5em 1.5em;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+.card-heading {
+    padding: 0.75em 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid #d6996b;
+    color: #ffffff;
+    background: #d6996b;
+    border-top-right-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
+    border-top-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
+}
+
+.card4 {
+    flex: 1 1 0;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    flex: 1 1 30%;
+    min-width: 20em;
+}
+
+.card-content {
+    flex: 1 1 auto;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.card-list {
+    line-height: 1.5;
+    padding-left: 1em;
+}
+
+.card-link {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #eeeeee;
+    border-bottom-right-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
+    border-bottom-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
+}
+
+
+
 /* terapie a jejich varianty*/
 
 .terapie {
@@ -140,41 +195,6 @@ header p {
     flex-wrap: wrap;
 }
 
-.varianta {
-    background-color: #ffffff;
-    margin: 0 0.5em 1.5em;
-    flex: 1 1 0;
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
-}
-
-.varianta-heading {
-    padding: 0.75em 2em;
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 1px solid #d6996b;
-    color: #ffffff;
-    background: #d6996b;
-    border-top-right-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-    border-top-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-}
-
-.varianta-content {
-    flex: 1 1 auto;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.varianta-link {
-    text-align: center;
-    padding: 0.5em;
-    background-color: #eeeeee;
-    border-bottom-right-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-    border-bottom-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-}
 
 /* all about dita */
 
@@ -206,34 +226,6 @@ header p {
     min-width: 250px;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.dita-card {
-    flex: 1 1 30%;
-    margin: 1.5em 0.5em;
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
-    min-width: 20em;
-}
-
-.dita-subheader {
-    padding: 0.75em 2em;
-    margin-top: 0;
-    border: 1px solid #d6996b;
-    color: #ffffff;
-    background: #d6996b;
-    border-top-right-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-    border-top-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
-}
-
-.dita p,
-.dita ul {
-    margin: 0 1em 1em;
-}
-
-.dita-list {
-    line-height: 1.5;
-    padding-left: 1em;
 }
 
 .dita-years {
