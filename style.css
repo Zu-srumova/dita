@@ -39,7 +39,6 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    font-weight: 400;
 }
 
 h3 {
@@ -123,6 +122,8 @@ header p {
     text-align: center;
     margin: 20px 0;
 }
+
+/* kartičky, ať jsou kde jsou */
 
 /* terapie a jejich varianty*/
 
