@@ -124,6 +124,12 @@ header p {
 }
 
 /* kartičky, ať jsou kde jsou */
+.card-container {
+    display: flex;
+    min-width: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .card {
     background-color: #ffffff;
@@ -133,6 +139,18 @@ header p {
     flex-direction: column;
     border: 1px solid #CCCCCC;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card4 {
+    flex: 1 1 0;
+    min-width: 250px;
+}
+
+.card3 {
+    flex: 1 1 30%;
+    min-width: 20em;
 }
 
 .card-heading {
@@ -146,24 +164,11 @@ header p {
     border-top-left-radius: 4px; /* o tloustku borderu rodice mensi nez je u rodice */
 }
 
-.card4 {
-    flex: 1 1 0;
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-}
-
-.card3 {
-    flex: 1 1 30%;
-    min-width: 20em;
-}
-
 .card-content {
     flex: 1 1 auto;
     margin-left: 1em;
     margin-right: 1em;
 }
-
 
 .card-list {
     line-height: 1.5;
@@ -190,12 +195,6 @@ header p {
     text-align: center;
 }
 
-.terapie-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
 /* all about dita */
 
 .dita-content {
@@ -221,12 +220,6 @@ header p {
     margin: 0 auto;
 }
 
-.dita-experience {
-    display: flex;
-    min-width: 250px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .dita-years {
     color: #d6996b;
