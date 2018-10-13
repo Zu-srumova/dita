@@ -323,10 +323,17 @@ footer {
 }
 
 .footer-container {
-    display: inline-block;
-    position: center;
-    width: 30rem;
-    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-card {
+    flex: 0 1 30%;
+    min-width: 15em;
 }
 
 footer p {
@@ -351,6 +358,7 @@ footer a:hover {
 
 .footer-compulsory {
     margin: 2em -1em 0;
+    padding: 0.5em;
     text-align: center;
     background-color: #d6996b;
 }
