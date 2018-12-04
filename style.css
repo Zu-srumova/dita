@@ -9,7 +9,8 @@
 }
 
 html {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", "Helvetica", "Verdana", sans-serif;
+    font-display: fallback;
     font-size: 16px;
 }
 
@@ -23,7 +24,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", "Roboto", "Helvetica", "Verdana", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-align: left;
