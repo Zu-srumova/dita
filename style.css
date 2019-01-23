@@ -16,6 +16,7 @@ html {
 
 body {
     background-color: #ffffff;
+    background-image: url("img/background.jpg");
     color: #333333;
     margin: 0;
     padding: 0;
@@ -40,7 +41,6 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    text-align: center;
     color: #333333;
 }
 
@@ -58,6 +58,11 @@ a {
     color: #3a506b;
 }
 
+ul {
+    list-style-type: circle;
+    line-height: 1.5em;
+}
+
 section {
     max-width: 1000px;
     margin-left: auto;
@@ -69,7 +74,7 @@ section {
 /* navigace */
 
 .main-nav {
-    background-color: #333333;
+    background-color: #333333f0;
     color: #ffffff;
     font-size: 0.92rem;
     text-align: right;
@@ -98,11 +103,10 @@ section {
     text-decoration: none;
     display: block;
     padding: 1em;
-    border-left: 1px solid #222222;
 }
 
 .main-nav a:hover {
-    background-color: #d6996b;
+    background-color: #8E6C3F;
 }
 
 /* header */
@@ -133,7 +137,6 @@ header p {
 }
 
 .card {
-    background-color: #ffffff;
     margin: 0 0.5em 1.5em;
     min-width: 250px;
     display: flex;
@@ -159,7 +162,7 @@ header p {
     padding: 0.75em;
     margin-top: 0;
     margin-bottom: 0;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px dashed #E0C8C4;
 }
 
 .card-content {
@@ -267,7 +270,7 @@ header p {
 }
 
 .cenik-link:hover {
-    background: #dca77f;
+    background: #8E6C3F;
 }
 
 .cenik-storno {
@@ -289,7 +292,7 @@ header p {
 /* footer - tedy informace kontaktní */
 
 footer {
-    background-color: #333333;
+    background-color: #333333f0;
     color: #ffffff;
     padding: 0 1em;
 }
@@ -311,12 +314,14 @@ footer {
 footer p {
     padding: 0;
     margin: 1em 0 0;
+    color: white;
 }
 
 footer h2 {
     margin: 1em 0 0;
     padding: 1em 0 0;
     text-align: left;
+    color: white;
 }
 
 footer a {
@@ -325,12 +330,12 @@ footer a {
 }
 
 footer a:hover {
-    color: #dca77f;
+    color: #8E6C3F;
 }
 
 .footer-compulsory {
     margin: 2em -1em 0;
     padding: 0.5em;
     text-align: center;
-    background-color: #d6996b;
+    background-color: #4F051Af0;
 }
