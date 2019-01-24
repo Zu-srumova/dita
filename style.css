@@ -74,6 +74,7 @@ section {
 /* navigace */
 
 .main-nav {
+    background-color: #333333;
     background-color: #333333f0;
     color: #ffffff;
     font-size: 0.92rem;
@@ -292,6 +293,7 @@ header p {
 /* footer - tedy informace kontaktní */
 
 footer {
+    background-color: #333333;
     background-color: #333333f0;
     color: #ffffff;
     padding: 0 1em;
@@ -337,5 +339,6 @@ footer a:hover {
     margin: 2em -1em 0;
     padding: 0.5em;
     text-align: center;
+    background-color: #4F051A;
     background-color: #4F051Af0;
 }
