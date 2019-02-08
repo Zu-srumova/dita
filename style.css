@@ -34,13 +34,31 @@ h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1.2em;
 }
 
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #333333;
+}
+
+@media only screen and (min-width: 500px) {
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 h3 {
@@ -63,12 +81,22 @@ ul {
 }
 
 section {
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     padding-bottom: 0;
     column-span: all; /* zapina block formatting context (aby se vypnul margin collapsing) */
+}
+
+.bigger-text {
+    font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 500px) {
+    .bigger-text {
+        font-size: 1.5rem;
+    }
 }
 
 /* navigace */
@@ -86,15 +114,35 @@ section {
 
 .main-nav ul {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     display: flex;
-    max-width: 1000px;
+    max-width: 62.5rem;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 
 .main-nav li {
     display: block;
+}
+
+.main-nav .md-screen {
+    display: none;
+}
+
+.main-nav .lg-screen {
+    display: none;
+}
+
+@media only screen and (min-width: 500px) {
+    .main-nav .md-screen {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .main-nav .lg-screen {
+        display: block;
+    }
 }
 
 .main-nav a {
@@ -109,14 +157,12 @@ section {
     background-color: #666A86;
 }
 
-.bigger-text {
-    font-size: 1.5rem;
-}
+
 
 /* kartičky, ať jsou kde jsou */
 .card-container {
     display: flex;
-    min-width: 300px;
+    min-width: 18.75rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -130,10 +176,7 @@ section {
 
 .card {
     margin: 0 0.5em 1.5em;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    border: 0px solid #CCCCCC;
+    min-width: 18.75rem;
     display: flex;
     flex-direction: column;
     flex: 1 1 40%;
@@ -141,7 +184,7 @@ section {
 
 .card1 {
     flex: 1 1 100%;
-    min-width: 250px;
+    min-width: 15.5rem;
 }
 
 .card-heading {
@@ -283,27 +326,3 @@ footer a:hover {
     text-align: center;
     background-color: rgba(79,5,26,0.94);
 }
-
-.md-screen {
-    display: none;
-}
-
-.lg-screen {
-    display: none;
-}
-
-@media only screen and (min-width: 500px) {
-    .md-screen {
-        display: block;
-    }
-}
-
-
-@media only screen and (min-width: 700px) {
-    .lg-screen {
-        display: block;
-    }
-}
-
-
-
