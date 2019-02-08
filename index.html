@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="cs">
-    <head>
-        <meta charset="utf-8">
-        <title>Dita Votavová</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#terapie">Terapie</a></li>
-                    <li><a href="#dita">O mně</a></li>
-                    <li><a href="#kontakt">Kontakt</a></li>
-                </ul>
-            </nav>
-            <section class="header-image">
-                <h1>Dita Votavová <br>–<br> fyzioterapie a psycho&shy;somatické poradenství</h1>
-                <p>„Tělo je váš přítel, který vám vždycky řekne pravdu“</p>
-            </section>
-        </header>
-        <main>
-            <section class="anotation">
-                <p><b>Podporuji své klienty, aby objevovali zákonitosti svého těla a byli citliví k tomu, co jim tělo říká.</b><br>
-                    Společně hledáme proč, kdy a jak je tělo bolí, kde jsou místa slabá, která potřebují péči a kde jsou místa silná, o která se mohou opřít. Zvolenou terapií pomáhám klientům dosáhnout maximální možné rovnováhy jejich těla.</p>
-                <p>Vycházím z aktuálního stavu klienta a jeho pohybových celodenních aktivit a zvyklostí. Doporučuji, co a jak mohou ve svém životě změnit, doplnit, přidat i opustit, aby se cítili v těle dobře a měli z něho radost. Aby jim tělo ve své síle, pevnosti a pružnosti mohlo být oporou v čase aktivity a zároveň ho uměli uvolnit a provést k potřebnému odpočinku.</p>
-            </section>
-            <section class="terapie" id="terapie">
-                <h2>Jaké používám cesty</h2>
-                <!--
-                <p class="terapie-uvod">Podle typu klienta i problému, který řeší, lze zvolit několik cest:</p> -->
-                <div class="card-container">
-                    <div class="card card4">
-                        <h3 class="card-heading">Fyzio&shy;terapie</h3>
-                        <p class="card-content">Dík aktech arménovi až do mrzí jistá říkáme lov uvítání děti činil číman barvách jasnosti naježí tlustým váha. Pít strana znepokojením civilním dirigent. Ústa pět zuření spěchu useknu, zjeví námitky škvrněti 56 sem.</p>
-                        <a href="http://www.mfkcentrum.cz/metoda-mfk" class="card-link">o fyzioterapii</a>
-                    </div>
-                    <div class="card card4">
-                        <h3 class="card-heading">Jógová terapie</h3>
-                        <p class="card-content">Dík aktech arménovi až do mrzí jistá říkáme lov uvítání děti činil číman barvách jasnosti naježí tlustým váha. </p>
-                        <a href="http://www.mfkcentrum.cz/metoda-mfk" class="card-link">o jógové terapii</a>
-                    </div>
-                    <div class="card card4">
-                        <h3 class="card-heading">MFK metoda</h3>
-                        <p class="card-content">Dík aktech arménovi až do mrzí jistá říkáme lov uvítání děti činil číman barvách jasnosti naježí tlustým váha. Svými ba ona intuici z nehodilo roha panika děsit. Ve jed baku kozí kalous psát nervových. Pít strana znepokojením civilním dirigent. Ústa pět zuření spěchu useknu, zjeví námitky škvrněti 56 sem.</p>
-                        <a href="http://www.mfkcentrum.cz/metoda-mfk" class="card-link">o MFK</a>
-                    </div>
-                    <div class="card card4">
-                        <h3 class="card-heading">Shiatsu</h3>
-                        <p class="card-content">Ústa pět zuření spěchu useknu, zjeví námitky škvrněti 56 sem.</p>
-                        <a href="http://www.mfkcentrum.cz/metoda-mfk" class="card-link">o shiatsu</a>
-                    </div>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dita Votavová</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Náprava a prevence akutních i chronických bolestí svalů, kloubů a páteře, pomoc při pocitu únavy a nedostatku energie, relaxace a psychická úleva při stresu.">
+
+    <meta property="og:image" content="http://www.ditavotavova.cz/img/20181031-DSC_5931_tichhi_c_scale,w_830.jpg">
+    <meta property="og:title" content="Dita Votavová – Fyzioterapie a psychosomatické poradenství">
+    <meta property="og:description" content="Každý můžeme najít cestu ke svému uvolněnému a vyváženému tělu, které podpoří naši uvolněnou a vyváženou mysl.">
+    <meta property="og:url" content="http://www.ditavotavova.cz">
+
+    <meta name="google-site-verification" content="OyU0QucVSyyhTJS7-9yfoMeeN9lVmH3AIv-fzYTB7hU" />
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
+</head>|
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="tel:+420607113898">Objednání:&nbsp;&nbsp;607&nbsp;113&nbsp;898</a></li>
+                <li class="md-screen"><a href="#terapie">Terapie</a></li>
+                <li class="md-screen"><a href="#dita">O mně</a></li>
+                <li class="lg-screen"><a href="#cenik">Ceník</a></li>
+                <li class="lg-screen"><a href="#reference">Reference</a></li>
+                <li class="md-screen"><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <section class="header">
+            <h1>Dita Votavová<br><br>Fyzioterapie<br>a psycho&shy;somatické poradenství</h1>
+            <p class="bigger-text">„Každý můžeme najít cestu ke svému uvolněnému a&nbsp;vyváženému tělu,<br>které podpoří naši uvolněnou a&nbsp;vyváženou mysl.“</p>
+        </section>
+    </header>
+
+    <main>
+        <section class="anotation">
+            <p>Podpořím vás v&nbsp; naslouchání vašemu tělu a&nbsp;v uvědomování si souvislostí mezi vaším jednáním a&nbsp;tělesným prožíváním. Vycházím vždy z&nbsp;vašeho aktuálního stavu, z&nbsp;vašich přirozených pohybových stereotypů a&nbsp;zvyklostí.  Po úvodním rozhovoru vám nabídnu vhodnou terapii, s&nbsp;cílem vyvolat změny, které podpoří vaše tělo na cestě k&nbsp;rovnováze a&nbsp;zdraví. Věřím v&nbsp;moudrost těla, které  má velkou sílu a&nbsp;vlastní prostředky potřebné k&nbsp;udržení zdraví. Pomohu vám se s&nbsp;nimi spojit. Na terapie navazuje doporučení,  jak nastolenou rovnováhu udržet, co&nbsp;a&nbsp;jak je možné ve vašem životě pozměnit, co doplnit nebo opustit, abyste se cítili ve vašem těle dobře, aby vám bylo oporou a&nbsp;měli jste z&nbsp;něho radost. </p>
+
+            <h2>S čím vám mohu pomoci?</h2>
+            <ul>
+                <li>Akutní i chronické bolesti svalů, kloubů a&nbsp;páteře</li>
+                <li>Pocit únavy a&nbsp;nedostatku energie</li>
+                <li>Relaxace a&nbsp;psychická úleva při stresu</li>
+                <li>Psychosomatické symptomy – trávicí, dechové obtíže, bolest hlavy a&nbsp;další</li>
+                <li>Pohybové aktivity a&nbsp;relaxační techniky ušité „na míru“</li>
+            </ul>
+        </section>
+
+        <section class="terapie" id="terapie">
+            <h2>Jaké používám cesty</h2>
+            <div class="card-container">
+                <div class="card card1">
+                    <h3 class="card-heading">Shiatsu</h3>
+                    <p class="card-content">Shiatsu je druh celostní terapie, která pracuje s&nbsp;energií a&nbsp;masážními technikami. Původ má v&nbsp;Japonsku a&nbsp;vychází z&nbsp;kořenů a&nbsp;moudrosti tradiční čínské medicíny. V&nbsp;překladu znamená tlak prstů, ale&nbsp;i&nbsp;péči a&nbsp;přijetí. Pro harmonizaci energie v&nbsp;těle využívá jemnou manipulaci jednotlivými částmi – protahování, rotace, hnětení, vibraci – a&nbsp;práci na&nbsp;jednotlivých bodech energetických drah orgánů pomocí tlaku prstů a&nbsp;dlaní. Shiatsu stimuluje samoléčebné procesy při vzniklých dysbalancích v&nbsp;těle a&nbsp;je přirozenou a&nbsp;příjemnou metodou udržení zdraví a&nbsp;prevence nemocí. Shiatsu vám nabídne hluboký prožitek fyzické přítomnosti a&nbsp;uvolnění. Provádí se na měkké podložce (futonu) na zemi, vy jste po&nbsp;celou dobu v&nbsp;oblečení. Po&nbsp;ošetření následuje chvíle relaxace nezbytná pro doznění terapie.</p>
+                </div>
+                <div class="card card1">
+                    <h3 class="card-heading">Jógová terapie</h3>
+                    <p class="card-content">Jóga mě osobně provází mnoho let a&nbsp;je pro mě jedinečným konceptem celostního přístupu k&nbsp;hledání rovnováhy těla a&nbsp;duše. V&nbsp;terapii vám nabídnu vhodně zvolené ásany (pozice) a&nbsp;dechová cvičení, která rozvinou vaši vnímavost těla, pohybu a&nbsp;dechu. Pracuji s&nbsp;oblibou s&nbsp;principy Jin jogy, která využívá delších výdrží v&nbsp;pozicích a&nbsp;tím ovlivňuje nejen svaly, ale&nbsp;i&nbsp;hlubší struktury v&nbsp;těle – kosti, pojivové tkáně a&nbsp;klouby. Jin joga vyžaduje vaší plnou pozornost k&nbsp;tělu a&nbsp;zároveň vám nabídne možnost pozorovat a&nbsp;vnitřně cítit fyzické i&nbsp;psychické změny těla. Při výdrži v&nbsp;pozicích bez snahy cokoliv měnit, za&nbsp;souběžného přijímání sebe sama takových, jací jste, začnete možná vnímat nové části své bytosti.</p>
+                </div>
+                <div class="card card1">
+                    <h3 class="card-heading">MFK metoda</h3>
+                    <p class="card-content">MFK je vyšetřovací, diagnostická a&nbsp;terapeutická metoda, která propojuje manuální zručnost a&nbsp;zkušenosti terapeuta s&nbsp;nejmodernějším počítačovým softwarem. Na počátku terapie vyšetřím vaše svaly, u&nbsp;kterých zjistím, zda a&nbsp;nakolik svých možností fungují. Vyšetření zadávám do počítačového programu, který následně ukáže, jaká místa vašeho těla fungují dobře a&nbsp;jaká ne. Obrázek si prohlédneme společně, takže si můžete porovnat subjektivní vnímání těla a&nbsp;jeho reálný stav. Často zjistíme, že&nbsp;místo, které bolí, není příčinou nerovnováhy v&nbsp;těle, ale jejím důsledkem. Na základě vzniklé diagnostiky navrhnu nejvhodnější terapii – stimulaci neurolymfatických bodů, masáž vybraných svalů a&nbsp;svalových skupin či&nbsp;jiné. <a href="http://www.mfkcentrum.cz/metoda-mfk" class="card-link">→ o MFK</a></p>
                 </div>
             </section>
             <section class="dita" id="dita">
